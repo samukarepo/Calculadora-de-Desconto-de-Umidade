@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Define a meta tag de viewport para responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define o título da página -->
+    <title>Calculadora de Escala de Coma de Glasgow</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="body">
+    <div class="container">
+        <!-- Título da calculadora -->
+        <h1>Calculadora de desconto de umidade</h1>
+        <!-- Descrição da calculadora -->
+        <p class="description">
+           Calculadora para desconto com base na umidade antes à secagem utilizando o peso após secagem!
+
+        </p>
+        <!-- Formulário para entradas do usuário -->
+        <form id="glasgowForm">
+            <label for="ocular">Peso da quantidade SECA</label>
+            <input style="border-radius: 5px;" id="peso" type="number" placeholder="Digite o peso aqui!" required>
+
+            <label for="verbal">Percentual de desconto</label>
+            <input style="border-radius: 5px;" id="percentual" type="number" required placeholder="Digite o percentual de desconto aqui!">
+            <br>
+
+            <!-- Botão para calcular a pontuação -->
+            <button type="button" onclick="calcularDesconto()">Calcular</button>
+        </form>
+        <!-- Parágrafo para exibir o resultado -->
+        <p id="resultado"></p>
+    </div>
+    <!-- Link para o arquivo JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+
+</html>
