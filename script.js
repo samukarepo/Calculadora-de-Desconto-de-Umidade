@@ -5,5 +5,5 @@ function calcularDesconto(){
     const pesoTotal = (peso * 100) / percentualPeso
     const desconto = pesoTotal - peso
 
-    document.querySelector('#resultado').innerHTML = `O peso bruto é de <strong>${pesoTotal.toFixed(2)}</strong> Kg, e o deconto é <strong>${desconto.toFixed(2)}</strong> Kg!`    
+    document.querySelector('#resultado').innerHTML = `O peso bruto é de <strong>${pesoTotal.toFixed(2)}</strong> Kg, e o desconto é <strong>${desconto.toFixed(2)}</strong> Kg!`    
 }
